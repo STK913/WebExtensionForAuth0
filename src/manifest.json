@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "version": "1.3.0",
+  "name": "Test",
+  "short_name": "test",
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://*.auth0.com https://*.eu.auth0.com https://*.gravatar.com https://*.gstatic.com; object-src 'self'",
+  "permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "browser_action": {
+    "default_title": "Test",
+    "default_popup": "index.html"
+  }
+}
